@@ -20,7 +20,7 @@ class Home extends React.Component {
         return ( 
             <>
                 <div className="home1 d-flex container">
-                    <div className="row d-flex">
+                    <div className="row d-flex flex-wrap">
                         <div className="col-6">
                             <h1 className="titleh11">Наша <span>История</span></h1>
                             <p className="text-center textp1 mt-3">Как и y любого другого самобытного места,
