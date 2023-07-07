@@ -141,14 +141,16 @@
 .home1{
   width: 100%;
   height: 600px;
-  margin-top: 200px;
+  margin-top: 300px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
-.images{
+.images1{
   position: relative;
   display: flex;
+  width: 500px;
+  height: 500px;
   align-items: center;
   justify-content: center;
 }
@@ -264,7 +266,6 @@ span{
   height: 150px;
   border-radius: 50%;
   margin-top: 80px;
-  /* position: absolute; */
 }
 .card11{
   width: 350px;
@@ -301,6 +302,10 @@ span{
 }
 .images{
   position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sonlar{
   width: 70px;
@@ -440,7 +445,7 @@ span{
     height: 300px;
   }
   .home1{
-    margin-top: 900px;
+    margin-top: 1200px !important;
     width: 90%;
   }
   .page1{
@@ -453,6 +458,15 @@ span{
     width: 350px !important;
     height: 500px;
     margin-bottom: 60px;
+  }
+  .page3{
+    background-image: url('./components/img/bar-1869656_1920\ 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%; 
+    padding-bottom: 20px; 
   }
   .biography{
     width: 80%;
@@ -515,8 +529,7 @@ span{
     height: 300px;
   }
   .home1{
-    margin-top: 900px;
-    width: 90%;
+    margin-top: 1000px;
   }
   .page1{
     margin-top: 400px;
@@ -527,9 +540,16 @@ span{
   .card11{
     width: 350px !important;
     height: 500px;
+    margin-bottom: 60px;
   }
-  .biography{
-    margin-top: 800px;
+  .page3{
+    background-image: url('./components/img/bar-1869656_1920\ 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;  
+    padding-bottom: 20px;
   }
   .flexbox{
     width: 100%;
@@ -563,4 +583,30 @@ span{
   .grid5{
     display: none;
   }
+}
+@media screen and (max-width: 992px){
+  .home1{
+    margin-top: 1000px;
+  }
+  .page1{
+    margin-top: 300px;
+  }
+  .list1{
+    display: none;
+  }
+  .card11{
+    margin-bottom: 60px;
+  }
+  .page3{
+    height: auto;
+  }
+}
+@media screen and (max-width: 1200px){
+  .page2{
+    gap: 180px;
+  }
+  .list1{
+    display: none;
+  }
+ 
 }

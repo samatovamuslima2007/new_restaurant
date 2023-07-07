@@ -16,11 +16,11 @@ class Home extends React.Component {
     render() { 
         return ( 
             <>
-                <div className="home1 d-flex container">
+                <div className="home1 container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="col-sm-12 col-md-12 col-lg-6">
                             <h1 className="titleh11">Наша <span>История</span></h1>
-                            <p className="text-center textp1 mt-3">Как и y любого другого самобытного места,
+                            <p className="text-center textp1 mt-5">Как и y любого другого самобытного места,
                                  y нас есть своя, особая история. Идея ресторана пришла
                                   основателям неожиданно. Bo время прогулки по лесу создатель 
                                   нашего ресторана застрял в сотнях километров от ближайшего 
@@ -33,18 +33,20 @@ class Home extends React.Component {
                               <li className="text-center"><h1 className="textcolor">71</h1>закуски</li>
                             </ul>
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-6 images pt-5">
-                            <div className="image jpg3">
-                                <img src={pinkimg} width={200} height={250}/>
-                            </div>
-                            <div className="image jpg2">
-                                <img src={tortimg} width={150} height={250}/>
-                            </div>
-                            <div className="image jpg4">
-                                <img src={restoranimg} width={150} height={200}/>
-                            </div>
-                            <div className="image jpg1">
-                                <img src={teaimg} width={150} height={200}/>
+                        <div className="col-sm-12 col-md-12 col-lg-6 images1">
+                            <div>
+                                <div className="image jpg3">
+                                    <img src={pinkimg} width={200} height={250}/>
+                                </div>
+                                <div className="image jpg2">
+                                    <img src={tortimg} width={150} height={250}/>
+                                </div>
+                                <div className="image jpg4">
+                                    <img src={restoranimg} width={150} height={200}/>
+                                </div>
+                                <div className="image jpg1">
+                                    <img src={teaimg} width={150} height={200}/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -61,12 +63,12 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="py-5">
-                    <h1 className="titleh12 py-5">Наши<span>Блюда</span></h1>
+                    <h1 className="titleh12 py-5">Наши<span> Блюда</span></h1>
                     <div className="d-flex page2 row">
-                        <div className="pizzabox col-lg-5 col-md-12 col-12">
+                        <div className="pizzabox col-lg-5 col-md-6 col-12">
                             <img src={pizzaimg}/>
                         </div>
-                        <div className="hamburger col-lg-2 col-md-12 col-12">
+                        <div className="hamburger col-lg-2 col-md-6 col-12">
                             <div className="DANAR py-2 d-flex">
                                 <img src={hamburgerimg} width={180} height={180}/>
                                 <div className="miniGamburger d-lg-none text-center"><b>Гамбургер мини <br/> 220 ₽</b></div>
@@ -80,7 +82,7 @@ class Home extends React.Component {
                                 <div className="miniGamburger d-lg-none text-center"><b>Гамбургер мини <br/> 220 ₽</b></div>
                             </div>
                         </div>
-                        <div className="list1 col-lg-4">
+                        <div className="list1 col-xl-4">
                             <ul>
                                 <li className="li1">Гамбургер мини --------------- 220 ₽</li>
                                 <li className="li2">Гамбургер мини --------------- 220 ₽</li>
@@ -149,14 +151,14 @@ class Home extends React.Component {
                 </div>
                 <h1 className="titleh12 container py-5">Наши<span> Повара</span></h1>
                 <div class="container">
-                    <div class="row d-md-flex-none">
-                        <div class="col-12 col-md-6 col-xl-4 my-2">
+                    <div class="row povr d-md-flex-none">
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-4 my-2">
                         <img src={coocking}/>
                         </div>
-                        <div class="col-12 col-md-6 col-xl-4 my-2">
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-4 my-2">
                         <img src={pizza}/>
                         </div>
-                        <div class="col-12 col-md-6 col-xl-4 my-2">
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-4 my-2">
                         <img src={image4}/>
                         </div>
                     </div>
